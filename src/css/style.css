@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #f0f0f0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-shadow: 5px 5px 5px #555;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #555;
+    font-weight: 600;
+}
+header nav ul li a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+header #logo{
+    color: blue;
+}
+.banner #image{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    
+}
